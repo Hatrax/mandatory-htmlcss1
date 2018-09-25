@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+    background-image: url(img/noisy_grid.png);
+}
+#main-header {
+    height: 100px;
+    
+}
+#main-header h1 {
+    color: black;
+    margin-top: 0;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    height: 40px;
+    line-height: 40px;
+}
+nav a {
+    color: red;
+    margin-right: 60px;
+    display: inline-block;  
+}
+nav a:hover {
+    background-color: rgb(20, 20, 20);
+}
+#middle {
+     padding: 10px;
+}
+
+#middle h2 {
+    color: red;
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: grey;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+footer {
+   background-color: rgb(39, 39, 39);
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+footer hr {
+    margin: 0;
+    }
+footer p {
+    color: red;
+    margin-left: 20px;
+    text-align: center;
+}
